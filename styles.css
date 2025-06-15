@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  color: #fff;
+  background: url('images/background.jpg') no-repeat center center/cover;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+header {
+  text-align: center;
+  padding: 100px 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.hero h1 {
+  font-size: 3em;
+}
+
+section {
+  padding: 60px 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 20px 0;
+}
+
+.portfolio-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project {
+  background: #444;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+input, textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  background: #06c;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
